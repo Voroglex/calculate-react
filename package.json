@@ -1,5 +1,5 @@
 {
-  "homepage": "https://voroglex.github.io/calculate-react",
+  "homepage": "https://voroglex.github.io/calculate-react.github.io/",
   "name": "my-calculate",
   "version": "0.1.0",
   "private": true,
@@ -15,11 +15,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
